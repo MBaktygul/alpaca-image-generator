@@ -259,3 +259,14 @@ button:focus {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
 }
+
+.bottom-buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.bottom-buttons button {
+	border-radius: 0;
+	width: 100%;
+	padding: 10px 10px;
+}
