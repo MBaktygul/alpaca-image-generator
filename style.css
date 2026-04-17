@@ -1,0 +1,261 @@
+/* CSS reset */
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* 2. Remove default margin */
+*:not(dialog) {
+	margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		interpolate-size: allow-keywords;
+	}
+}
+body {
+	/* 4. Increase line-height */
+	line-height: 1.5;
+	/* 5. Improve text rendering */
+	-webkit-font-smoothing: antialiased;
+}
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* root styles */
+:root {
+	/* colors */
+	--color: #eeecee;
+	--color-highlight: #e4521b;
+	--color-blue: #91b1e8;
+	--color-darkblue: #4676ca;
+
+	/* ALPACA images */
+	/* alpaca backgrounds */
+	--bg-blue50: url('/backgrounds/blue50.png');
+	--bg-blue60: url('./backgrounds/blue60.png');
+	--bg-blue70: url('./backgrounds/blue70.png');
+	--bg-darkblue30: url('./backgrounds/darkblue30.png');
+	--bg-darkblue50: url('./backgrounds/darkblue50.png');
+	--bg-darkblue70: url('./backgrounds/darkblue70.png');
+	--bg-green50: url('./backgrounds/green50.png');
+	--bg-green60: url('./backgrounds/green60.png');
+	--bg-green70: url('./backgrounds/green70.png');
+	--bg-grey40: url('./backgrounds/grey40.png');
+	--bg-grey70: url('./backgrounds/grey70.png');
+	--bg-grey80: url('./backgrounds/grey80.png');
+	--bg-red50: url('./backgrounds/red50.png');
+	--bg-red60: url('./backgrounds/red60.png');
+	--bg-red70: url('./backgrounds/red70.png');
+	--bg-yellow50: url('./backgrounds/yellow50.png');
+	--bg-yellow60: url('./backgrounds/yellow60.png');
+	--bg-yellow70: url('./backgrounds/yellow70.png');
+
+	/* nose */
+	--nose: url('nose.png');
+
+	/* ears */
+	--ears-default: url('./ears/default.png');
+	--ears-tb: url('./ears/tilt-backward.png');
+	--ears-tf: url('./ears/tilt-forward.png');
+
+	/* hair */
+	--hair-default: url('./hair/default.png');
+	--hairs-bang: url('./hair/bang.png');
+	--hair-curls: url('./hair/curls.png');
+	--hair-elegant: url('./hair/elegant.png');
+	--hair-fancy: url('./hair/fancy.png');
+	--hair-quiff: url('./hair/quiff.png');
+	--hair-short: url('./hair/short.png');
+
+	/* neck */
+	--neck-default: url('./neck/default.png');
+	--neck-bb: url('./neck/bend-backward.png');
+	--neck-bf: url('./neck/bend-forward.png');
+	--neck-thick: url('./neck/thick.png');
+
+	/* mouth */
+	--mouth-default: url('./mouth/default.png');
+	--mouth-astonished: url('./mouth/astonished.png');
+	--mouth-eating: url('./mouth/eating.png');
+	--mouth-laugh: url('./mouth/laugh.png');
+	--mouth-tongue: url('./mouth/tongue.png');
+
+	/* eyes */
+	--eyes-default: url('./eyes/default.png');
+	--eyes-angry: url('./eyes/angry.png');
+	--eyes-naughty: url('./eyes/naughty.png');
+	--eyes-panda: url('./eyes/panda.png');
+	--eyes-smart: url('./eyes/smart.png');
+	--eyes-star: url('./eyes/star.png');
+
+	/* leg */
+	--leg-default: url('./leg/default.png');
+	--leg-bubble-tea: url('./leg/bubble-tea.png');
+	--leg-cookie: url('./leg/cookie.png');
+	--leg-game-console: url('./leg/game-console.png');
+	--leg-tb: url('./leg/tilt-backward.png');
+	--leg-tf: url('./leg/tilt-forward.png');
+
+	/* accesories */
+	--accesories-earings: url('./accessories/earings.png');
+	--accesories-flower: url('./accessories/flower.png');
+	--accesories-glasses: url('./accessories/glasses.png');
+	--accesories-headphone: url('./accessories/headphone.png');
+}
+
+body {
+	background-color: var(--bg-color);
+	height: 100vh;
+	display: flex;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+	padding: 8px 10px;
+	background-color: transparent;
+	outline: 1.5px solid var(--color-blue);
+	border: none;
+	border-radius: 20px;
+	color: var(--color-blue);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+button:hover {
+	outline: 2px solid var(--color-darkblue);
+	color: var(--bg-color-darkblue);
+}
+
+button:focus {
+	background-color: var(--color-darkblue);
+	color: var(--color);
+}
+
+.uppercase {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	margin: auto;
+	padding: 20px;
+}
+
+.default-bg {
+	width: 100%;
+	height: 100%;
+	background: var(--bg-darkblue70);
+}
+
+.visual {
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+
+.default-bg,
+.default-ears,
+.default-neck,
+.default-nose,
+.default-hair,
+.default-mouth,
+.default-eyes,
+.default-leg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.default-accesories {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 9;
+}
+
+.default-ears {
+	background-image: var(--ears-default);
+}
+
+.default-neck {
+	background-image: var(--neck-default);
+}
+
+.default-nose {
+	background-image: var(--nose);
+}
+
+.default-hair {
+	background-image: var(--hair-default);
+}
+
+.default-mouth {
+	background-image: var(--mouth-default);
+}
+
+.default-eyes {
+	background-image: var(--eyes-default);
+}
+
+.default-leg {
+	background-image: var(--leg-default);
+}
+
+.default-bg {
+	z-index: 1;
+}
+.default-neck {
+	z-index: 2;
+}
+.default-ears {
+	z-index: 3;
+}
+.default-hair {
+	z-index: 4;
+}
+.default-eyes {
+	z-index: 5;
+}
+.default-mouth {
+	z-index: 6;
+}
+.default-leg {
+	z-index: 7;
+}
+.default-nose {
+	z-index: 8;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+}
+
+.picker {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.buttons-wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
