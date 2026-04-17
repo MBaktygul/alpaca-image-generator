@@ -136,6 +136,7 @@ button:hover {
 	color: var(--bg-color-darkblue);
 }
 
+button:active,
 button:focus {
 	background-color: var(--color-darkblue);
 	color: var(--color);
@@ -266,6 +267,10 @@ button:focus {
 }
 
 .bottom-buttons button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
 	border-radius: 0;
 	width: 100%;
 	padding: 10px 10px;
@@ -273,4 +278,28 @@ button:focus {
 	background-color: white;
 	color: black;
 	font-weight: 700;
+}
+
+.bottom-buttons button:hover {
+	outline: 2px solid var(--color-blue);
+}
+
+.bottom-buttons button::before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.random-button::before {
+	background: url(/icons/random.svg);
+	margin-right: 10px;
+}
+
+.download-button::before {
+	background: url(/icons/download.svg);
+	margin-right: 10px;
 }
