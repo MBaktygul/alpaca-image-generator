@@ -42,76 +42,76 @@ svg {
 
 	/* ALPACA images */
 	/* alpaca backgrounds */
-	--bg-blue50: url('/backgrounds/blue50.png');
-	--bg-blue60: url('./backgrounds/blue60.png');
-	--bg-blue70: url('./backgrounds/blue70.png');
-	--bg-darkblue30: url('./backgrounds/darkblue30.png');
-	--bg-darkblue50: url('./backgrounds/darkblue50.png');
-	--bg-darkblue70: url('./backgrounds/darkblue70.png');
-	--bg-green50: url('./backgrounds/green50.png');
-	--bg-green60: url('./backgrounds/green60.png');
-	--bg-green70: url('./backgrounds/green70.png');
-	--bg-grey40: url('./backgrounds/grey40.png');
-	--bg-grey70: url('./backgrounds/grey70.png');
-	--bg-grey80: url('./backgrounds/grey80.png');
-	--bg-red50: url('./backgrounds/red50.png');
-	--bg-red60: url('./backgrounds/red60.png');
-	--bg-red70: url('./backgrounds/red70.png');
-	--bg-yellow50: url('./backgrounds/yellow50.png');
-	--bg-yellow60: url('./backgrounds/yellow60.png');
-	--bg-yellow70: url('./backgrounds/yellow70.png');
+	--bg-blue50: url('./assets/backgrounds/blue50.png');
+	--bg-blue60: url('./assets/backgrounds/blue60.png');
+	--bg-blue70: url('./assets/backgrounds/blue70.png');
+	--bg-darkblue30: url('./assets//backgrounds/darkblue30.png');
+	--bg-darkblue50: url('./assets//backgrounds/darkblue50.png');
+	--bg-darkblue70: url('./assets//backgrounds/darkblue70.png');
+	--bg-green50: url('./assets//backgrounds/green50.png');
+	--bg-green60: url('./assets//backgrounds/green60.png');
+	--bg-green70: url('./assets//backgrounds/green70.png');
+	--bg-grey40: url('./assets//backgrounds/grey40.png');
+	--bg-grey70: url('./assets//backgrounds/grey70.png');
+	--bg-grey80: url('./assets//backgrounds/grey80.png');
+	--bg-red50: url('./assets//backgrounds/red50.png');
+	--bg-red60: url('./assets//backgrounds/red60.png');
+	--bg-red70: url('./assets//backgrounds/red70.png');
+	--bg-yellow50: url('./assets//backgrounds/yellow50.png');
+	--bg-yellow60: url('./assets//backgrounds/yellow60.png');
+	--bg-yellow70: url('./assets//backgrounds/yellow70.png');
 
 	/* nose */
-	--nose: url('nose.png');
+	--nose: url('./assets/nose.png');
 
 	/* ears */
-	--ears-default: url('./ears/default.png');
-	--ears-tb: url('./ears/tilt-backward.png');
-	--ears-tf: url('./ears/tilt-forward.png');
+	--ears-default: url('./assets//ears/default.png');
+	--ears-tb: url('./assets//ears/tilt-backward.png');
+	--ears-tf: url('./assets//ears/tilt-forward.png');
 
 	/* hair */
-	--hair-default: url('./hair/default.png');
-	--hairs-bang: url('./hair/bang.png');
-	--hair-curls: url('./hair/curls.png');
-	--hair-elegant: url('./hair/elegant.png');
-	--hair-fancy: url('./hair/fancy.png');
-	--hair-quiff: url('./hair/quiff.png');
-	--hair-short: url('./hair/short.png');
+	--hair-default: url('./assets//hair/default.png');
+	--hairs-bang: url('./assets//hair/bang.png');
+	--hair-curls: url('./assets//hair/curls.png');
+	--hair-elegant: url('./assets//hair/elegant.png');
+	--hair-fancy: url('./assets//hair/fancy.png');
+	--hair-quiff: url('./assets//hair/quiff.png');
+	--hair-short: url('./assets//hair/short.png');
 
 	/* neck */
-	--neck-default: url('./neck/default.png');
-	--neck-bb: url('./neck/bend-backward.png');
-	--neck-bf: url('./neck/bend-forward.png');
-	--neck-thick: url('./neck/thick.png');
+	--neck-default: url('./assets//neck/default.png');
+	--neck-bb: url('./assets//neck/bend-backward.png');
+	--neck-bf: url('./assets//neck/bend-forward.png');
+	--neck-thick: url('./assets//neck/thick.png');
 
 	/* mouth */
-	--mouth-default: url('./mouth/default.png');
-	--mouth-astonished: url('./mouth/astonished.png');
-	--mouth-eating: url('./mouth/eating.png');
-	--mouth-laugh: url('./mouth/laugh.png');
-	--mouth-tongue: url('./mouth/tongue.png');
+	--mouth-default: url('./assets//mouth/default.png');
+	--mouth-astonished: url('./assets//mouth/astonished.png');
+	--mouth-eating: url('./assets//mouth/eating.png');
+	--mouth-laugh: url('./assets//mouth/laugh.png');
+	--mouth-tongue: url('./assets//mouth/tongue.png');
 
 	/* eyes */
-	--eyes-default: url('./eyes/default.png');
-	--eyes-angry: url('./eyes/angry.png');
-	--eyes-naughty: url('./eyes/naughty.png');
-	--eyes-panda: url('./eyes/panda.png');
-	--eyes-smart: url('./eyes/smart.png');
-	--eyes-star: url('./eyes/star.png');
+	--eyes-default: url('./assets//eyes/default.png');
+	--eyes-angry: url('./assets//eyes/angry.png');
+	--eyes-naughty: url('./assets//eyes/naughty.png');
+	--eyes-panda: url('./assets//eyes/panda.png');
+	--eyes-smart: url('./assets//eyes/smart.png');
+	--eyes-star: url('./assets//eyes/star.png');
 
 	/* leg */
-	--leg-default: url('./leg/default.png');
-	--leg-bubble-tea: url('./leg/bubble-tea.png');
-	--leg-cookie: url('./leg/cookie.png');
-	--leg-game-console: url('./leg/game-console.png');
-	--leg-tb: url('./leg/tilt-backward.png');
-	--leg-tf: url('./leg/tilt-forward.png');
+	--leg-default: url('./assets//leg/default.png');
+	--leg-bubble-tea: url('./assets//leg/bubble-tea.png');
+	--leg-cookie: url('./assets//leg/cookie.png');
+	--leg-game-console: url('./assets//leg/game-console.png');
+	--leg-tb: url('./assets//leg/tilt-backward.png');
+	--leg-tf: url('./assets//leg/tilt-forward.png');
 
 	/* accesories */
-	--accesories-earings: url('./accessories/earings.png');
-	--accesories-flower: url('./accessories/flower.png');
-	--accesories-glasses: url('./accessories/glasses.png');
-	--accesories-headphone: url('./accessories/headphone.png');
+	--accesories-earings: url('./assets//accessories/earings.png');
+	--accesories-flower: url('./assets//accessories/flower.png');
+	--accesories-glasses: url('./assets//accessories/glasses.png');
+	--accesories-headphone: url('./assets//accessories/headphone.png');
 }
 
 body {
@@ -295,11 +295,21 @@ button:focus {
 }
 
 .random-button::before {
-	background: url(/icons/random.svg);
+	background: url(./assets//icons/random.svg);
 	margin-right: 10px;
 }
 
 .download-button::before {
-	background: url(/icons/download.svg);
+	background: url(./assets//icons/download.svg);
 	margin-right: 10px;
+}
+
+.ears-styles-wrapper,
+.eyes-styles-wrapper,
+.mouth-styles-wrapper,
+.neck-styles-wrapper,
+.leg-styles-wrapper,
+.accesories-styles-wrapper,
+.background-styles-wrapper {
+	display: none;
 }
